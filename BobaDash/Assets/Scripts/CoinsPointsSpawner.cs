@@ -2,20 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class CoinsPointsSpawner : MonoBehaviour
 {
     [SerializeField]
-    private Rigidbody2D rb;
-    [SerializeField]
-    public float upForce;
-    void Start()
-    {
-        
-    }
-
+    private List<Spawn> items;
     // Update is called once per frame
     void Update()
     {
         
     }
+}
+public class Spawn
+{
+
 }

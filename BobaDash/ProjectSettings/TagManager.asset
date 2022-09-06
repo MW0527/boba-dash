@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Despawn
+  - Obstacle
+  - Point
+  - Coin
   layers:
   - Default
   - TransparentFX

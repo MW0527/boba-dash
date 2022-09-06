@@ -10,9 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8376513127165489306}
   - component: {fileID: -779662093104757550}
+  - component: {fileID: 6312432905265808485}
   m_Layer: 0
   m_Name: Waffle
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 2217516813210457234}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.15, y: 0.15, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -84,3 +85,81 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!60 &6312432905265808485
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2217516813210457234}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 20, y: 15}
+    newSize: {x: 20, y: 15}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 7.93, y: -5.21}
+      - {x: 7.6699996, y: -4.94}
+      - {x: 7.39, y: -4.64}
+      - {x: 6.66, y: -3.86}
+      - {x: 6.39, y: -3.57}
+      - {x: 5.24, y: -2.34}
+      - {x: 5.08, y: -2.1699998}
+      - {x: 4.81, y: -1.88}
+      - {x: 3.6499999, y: -0.64}
+      - {x: 3.23, y: -0.19}
+      - {x: 2.22, y: 0.89}
+      - {x: 1.35, y: 1.8199999}
+      - {x: 1.1899999, y: 1.99}
+      - {x: 0.91999996, y: 2.28}
+      - {x: 0.78, y: 2.4299998}
+      - {x: 0.34, y: 2.8999999}
+      - {x: 0.089999996, y: 3.1799998}
+      - {x: 0.03, y: 3.21}
+      - {x: -0.03, y: 3.21}
+      - {x: -0.099999994, y: 3.1599998}
+      - {x: -0.19, y: 3.06}
+      - {x: -0.78, y: 2.4299998}
+      - {x: -1.06, y: 2.1299999}
+      - {x: -1.49, y: 1.67}
+      - {x: -2.22, y: 0.89}
+      - {x: -2.6399999, y: 0.44}
+      - {x: -2.79, y: 0.28}
+      - {x: -3.07, y: -0.02}
+      - {x: -3.23, y: -0.19}
+      - {x: -3.6499999, y: -0.64}
+      - {x: -4.81, y: -1.88}
+      - {x: -5.24, y: -2.34}
+      - {x: -5.66, y: -2.79}
+      - {x: -5.81, y: -2.95}
+      - {x: -6.0899997, y: -3.25}
+      - {x: -6.39, y: -3.57}
+      - {x: -6.96, y: -4.18}
+      - {x: -7.39, y: -4.64}
+      - {x: -7.6699996, y: -4.94}
+      - {x: -7.93, y: -5.21}
+      - {x: -8.21, y: -5.5099998}
+      - {x: -8.51, y: -5.83}
+      - {x: -8.79, y: -6.1299996}
+      - {x: -8.94, y: -6.29}
+      - {x: -9.22, y: -6.5899997}
+      - {x: -9.37, y: -6.75}
+      - {x: -9.79, y: -7.2}
+      - {x: -9.95, y: -7.37}
+      - {x: -10, y: -7.43}
+      - {x: -10, y: -7.5}
+      - {x: 10, y: -7.5}
+      - {x: 10, y: -7.43}
+      - {x: 9.95, y: -7.37}
